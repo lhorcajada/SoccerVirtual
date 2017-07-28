@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lhg.SoccerVirtual.Api", "Lhg.SoccerVirtual.Api\Lhg.SoccerVirtual.Api.csproj", "{7BEB81C3-2A44-4834-AB5A-C2B3106F1007}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lhg.SoccerVirtual.Backend", "Lhg.SoccerVirtual.Backend\Lhg.SoccerVirtual.Backend.csproj", "{76EC55AD-1A69-4318-A013-BFD6CFF678F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lhg.SoccerVirtual.Api.Tests", "Lhg.SoccerVirtual.Api.Tests\Lhg.SoccerVirtual.Api.Tests.csproj", "{0FE8F418-FCAC-4A71-8C23-14188F92FFBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lhg.SoccerVirtual.Backend.Tests", "Lhg.SoccerVirtual.Backend.Tests\Lhg.SoccerVirtual.Backend.Tests.csproj", "{59065FA1-4499-4A2B-A5AE-88ECDB98ECE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7BEB81C3-2A44-4834-AB5A-C2B3106F1007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BEB81C3-2A44-4834-AB5A-C2B3106F1007}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BEB81C3-2A44-4834-AB5A-C2B3106F1007}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BEB81C3-2A44-4834-AB5A-C2B3106F1007}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0FE8F418-FCAC-4A71-8C23-14188F92FFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FE8F418-FCAC-4A71-8C23-14188F92FFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FE8F418-FCAC-4A71-8C23-14188F92FFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FE8F418-FCAC-4A71-8C23-14188F92FFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EC55AD-1A69-4318-A013-BFD6CFF678F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EC55AD-1A69-4318-A013-BFD6CFF678F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EC55AD-1A69-4318-A013-BFD6CFF678F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EC55AD-1A69-4318-A013-BFD6CFF678F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59065FA1-4499-4A2B-A5AE-88ECDB98ECE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59065FA1-4499-4A2B-A5AE-88ECDB98ECE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59065FA1-4499-4A2B-A5AE-88ECDB98ECE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59065FA1-4499-4A2B-A5AE-88ECDB98ECE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
