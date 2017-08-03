@@ -123,6 +123,9 @@
   <data name="AliasMinLenghtError" xml:space="preserve">
     <value>Debe introducir un alias más largo</value>
   </data>
+  <data name="IOCNoCreatedObject" xml:space="preserve">
+    <value>El contenedor de dependencias no ha creado el objeto.</value>
+  </data>
   <data name="LastNameMaxLenghtError" xml:space="preserve">
     <value>Debe introducir un apellido más corto</value>
   </data>

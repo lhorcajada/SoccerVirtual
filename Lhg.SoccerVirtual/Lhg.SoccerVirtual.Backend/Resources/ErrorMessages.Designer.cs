@@ -79,6 +79,15 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to El contenedor de dependencias no ha creado el objeto..
+        /// </summary>
+        internal static string IOCNoCreatedObject {
+            get {
+                return ResourceManager.GetString("IOCNoCreatedObject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Debe introducir un apellido más corto.
         /// </summary>
         internal static string LastNameMaxLenghtError {

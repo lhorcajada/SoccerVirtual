@@ -1,6 +1,6 @@
 ﻿using Autofac;
 using Autofac.Integration.WebApi;
-using Lhg.SoccerVirtual.Backend.AppServices.Contracts;
+using Lhg.SoccerVirtual.Backend.AppServices.MarketAppService;
 using System;
 using System.Collections.Generic;
 using System.Linq;

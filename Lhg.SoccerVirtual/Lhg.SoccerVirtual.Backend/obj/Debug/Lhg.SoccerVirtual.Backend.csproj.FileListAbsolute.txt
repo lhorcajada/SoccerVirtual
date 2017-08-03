@@ -67,3 +67,7 @@ C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\Autofac.
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\Autofac.Integration.WebApi.Owin.xml
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\Microsoft.Owin.xml
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\System.Web.Http.Owin.xml
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\EntityFramework.dll
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\EntityFramework.SqlServer.dll
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\EntityFramework.xml
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\EntityFramework.SqlServer.xml
