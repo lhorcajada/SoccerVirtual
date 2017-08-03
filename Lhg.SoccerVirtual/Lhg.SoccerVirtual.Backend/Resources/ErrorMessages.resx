@@ -123,6 +123,15 @@
   <data name="AliasMinLenghtError" xml:space="preserve">
     <value>Debe introducir un alias más largo</value>
   </data>
+  <data name="ChampionshipTypeClassicName" xml:space="preserve">
+    <value>Clásico</value>
+  </data>
+  <data name="ChampionshipTypeComunioName" xml:space="preserve">
+    <value>Comunio</value>
+  </data>
+  <data name="ChampionshipTypeSocialName" xml:space="preserve">
+    <value>Social</value>
+  </data>
   <data name="IOCNoCreatedObject" xml:space="preserve">
     <value>El contenedor de dependencias no ha creado el objeto.</value>
   </data>
@@ -131,6 +140,9 @@
   </data>
   <data name="LastNameMinLenghtError" xml:space="preserve">
     <value>Debe introducir un apellido más largo</value>
+  </data>
+  <data name="LeagueSpanishName" xml:space="preserve">
+    <value>Liga Santander</value>
   </data>
   <data name="NameMaxLenghtError" xml:space="preserve">
     <value>Debe introducir un nombremás corto</value>

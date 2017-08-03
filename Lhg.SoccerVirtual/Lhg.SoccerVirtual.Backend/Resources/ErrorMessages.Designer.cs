@@ -79,6 +79,33 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Clásico.
+        /// </summary>
+        internal static string ChampionshipTypeClassicName {
+            get {
+                return ResourceManager.GetString("ChampionshipTypeClassicName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Comunio.
+        /// </summary>
+        internal static string ChampionshipTypeComunioName {
+            get {
+                return ResourceManager.GetString("ChampionshipTypeComunioName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Social.
+        /// </summary>
+        internal static string ChampionshipTypeSocialName {
+            get {
+                return ResourceManager.GetString("ChampionshipTypeSocialName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to El contenedor de dependencias no ha creado el objeto..
         /// </summary>
         internal static string IOCNoCreatedObject {
@@ -102,6 +129,15 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         internal static string LastNameMinLenghtError {
             get {
                 return ResourceManager.GetString("LastNameMinLenghtError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Liga Santander.
+        /// </summary>
+        internal static string LeagueSpanishName {
+            get {
+                return ResourceManager.GetString("LeagueSpanishName", resourceCulture);
             }
         }
         

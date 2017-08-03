@@ -7,7 +7,7 @@ namespace Lhg.SoccerVirtual.Backend.AppServices.Dtos
 {
     public class LeagueDto
     {
+        public int Id { get; set; }
         public string Name { get; set; }
-        public string ImageUrl { get; set; }
     }
 }

@@ -7,8 +7,8 @@ using Lhg.SoccerVirtual.Backend.Models;
 
 namespace Lhg.SoccerVirtual.Backend.DomainServices
 {
-    public interface IAcceptanceCriteria
+    public interface IAcceptanceCriteria<T>
     {
-        void CriteriaToCreate(ApplicationUser user, Championship championshipToCreate);
+        void CriteriaToCreate(ApplicationUser user, T entityToCreate);
     }
 }

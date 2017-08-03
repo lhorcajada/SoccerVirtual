@@ -1,6 +1,7 @@
 ﻿using Lhg.SoccerVirtual.Backend.AppServices.Dtos;
 using Lhg.SoccerVirtual.Backend.AppServices.LeagueAppService;
 using Lhg.SoccerVirtual.Backend.Exceptions;
+using Lhg.SoccerVirtual.Backend.Models.League;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,9 +22,9 @@ namespace Lhg.SoccerVirtual.Backend.Controllers
             _leagueService = leagueService;
 
         }
-        public async Task<List<LeagueDto>> GetLeagueAll()
+        public List<ILeague> GetLeagueAll()
         {
-            return await _leagueService.GetLeagueAll();
+            return _leagueService.GetLeagueAll();
         }
     }
 }

@@ -5,7 +5,10 @@ using System.Web;
 
 namespace Lhg.SoccerVirtual.Backend.Models.ChampionshipTypes
 {
-    public class ComunioChampionship:IChampionshipType
+    public class ComunioChampionship : IChampionshipType
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
     }
 }

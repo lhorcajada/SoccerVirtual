@@ -1,6 +1,8 @@
 ﻿using Lhg.SoccerVirtual.Backend.AppServices.ChampionshipAppService;
 using Lhg.SoccerVirtual.Backend.AppServices.Dtos;
 using Lhg.SoccerVirtual.Backend.DomainServices.DataContracts;
+using Lhg.SoccerVirtual.Backend.DomainServices.LeagueDomainService;
+using Lhg.SoccerVirtual.Backend.Models.League;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -12,18 +14,16 @@ namespace Lhg.SoccerVirtual.Backend.AppServices.LeagueAppService
 {
     public class LeagueService:ILeagueService
     {
-        private readonly ILeagueRepository _leagueRepository;
+        private readonly ILeagueLogic _leagueLogic;
 
-        public LeagueService(ILeagueRepository leagueRepository)
+        public LeagueService(ILeagueLogic leagueLogic)
         {
-            _leagueRepository = leagueRepository;
+            _leagueLogic = leagueLogic;
         }
-        public async Task<List<LeagueDto>> GetLeagueAll()
+        public List<ILeague> GetLeagueAll()
         {
-            var leagueList = await _leagueRepository.GetAll()
-                 .ToListAsync();
-            MapperLeague mapper = new MapperLeague();
-            return mapper.MappingFromEntityListToDtoList(leagueList);
+            return _leagueLogic.CreateLeagueList();
+  
 
         }
     }

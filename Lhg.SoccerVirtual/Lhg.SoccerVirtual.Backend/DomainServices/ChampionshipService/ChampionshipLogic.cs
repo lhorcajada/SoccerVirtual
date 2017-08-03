@@ -10,8 +10,8 @@ namespace Lhg.SoccerVirtual.Backend.DomainServices
 {
     public class ChampionshipLogic : IChampionshipLogic
     {
-        private IAcceptanceCriteria _acceptanceCriteria;
-        public ChampionshipLogic(IAcceptanceCriteria acceptanceCriteria)
+        private IChampionshipAcceptanceCriteria _acceptanceCriteria;
+        public ChampionshipLogic(IChampionshipAcceptanceCriteria acceptanceCriteria)
         {
             _acceptanceCriteria = acceptanceCriteria; 
         }

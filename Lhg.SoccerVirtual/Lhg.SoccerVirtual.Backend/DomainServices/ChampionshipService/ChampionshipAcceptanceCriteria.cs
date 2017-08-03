@@ -6,11 +6,9 @@ using Lhg.SoccerVirtual.Backend.Models;
 
 namespace Lhg.SoccerVirtual.Backend.DomainServices.ChampionshipService
 {
-    public class ChampionshipAcceptanceCriteria : IAcceptanceCriteria
+    public class ChampionshipAcceptanceCriteria : 
+        AcceptanceCriteriaBase<Championship>, IChampionshipAcceptanceCriteria
     {
-        public void CriteriaToCreate(ApplicationUser user, Championship championshipToCreate)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }

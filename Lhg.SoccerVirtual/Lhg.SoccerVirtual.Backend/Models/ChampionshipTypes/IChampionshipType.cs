@@ -8,5 +8,8 @@ namespace Lhg.SoccerVirtual.Backend.Models.ChampionshipTypes
 {
     public interface IChampionshipType
     {
+        int Id { get; set; }
+        string Name { get; set; }
+
     }
 }

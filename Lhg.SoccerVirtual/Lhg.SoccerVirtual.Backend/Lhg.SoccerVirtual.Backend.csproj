@@ -175,6 +175,8 @@
   <ItemGroup>
     <Compile Include="AppServices\ChampionshipAppService\ChampionshipService.cs" />
     <Compile Include="AppServices\ChampionshipAppService\IChampionshipService.cs" />
+    <Compile Include="AppServices\ChampionshipTypeAppService\ChampionshipTypeService.cs" />
+    <Compile Include="AppServices\ChampionshipTypeAppService\IChampionshipTypeService.cs" />
     <Compile Include="AppServices\LeagueAppService\MapperLeague.cs" />
     <Compile Include="AppServices\ChampionshipAppService\MapperChampionship.cs" />
     <Compile Include="AppServices\Dtos\ChampionshipDto.cs" />
@@ -188,20 +190,27 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ChampionshipController.cs" />
+    <Compile Include="Controllers\ChampionshipTypeController.cs" />
     <Compile Include="Controllers\LeagueController.cs" />
     <Compile Include="Data\DataFactory.cs" />
     <Compile Include="Data\IDataFactory.cs" />
     <Compile Include="Data\Model\SoccerVirtualContext.cs" />
-    <Compile Include="Data\Repositories\LeagueRepository.cs" />
+    <Compile Include="Data\Repositories\ChampionshipRepository.cs" />
     <Compile Include="Data\UnitOfWork.cs" />
+    <Compile Include="DomainServices\AcceptanceCriteriaBase.cs" />
+    <Compile Include="DomainServices\ChampionshipService\IChampionshipAcceptanceCriteria.cs" />
     <Compile Include="DomainServices\ChampionshipService\ChampionshipAcceptanceCriteria.cs" />
     <Compile Include="DomainServices\ChampionshipService\ChampionshipLogic.cs" />
-    <Compile Include="DomainServices\DataContracts\ILeagueRepository.cs" />
+    <Compile Include="DomainServices\ChampionshipTypeDomainService\ChampionshipTypeLogic.cs" />
+    <Compile Include="DomainServices\ChampionshipTypeDomainService\IChampionshipTypeLogic.cs" />
+    <Compile Include="DomainServices\DataContracts\IChampionshipRepository.cs" />
     <Compile Include="DomainServices\DataContracts\IRepository.cs" />
     <Compile Include="DomainServices\DataContracts\IUnitOfWork.cs" />
     <Compile Include="DomainServices\DataContracts\RepositoryBase.cs" />
     <Compile Include="DomainServices\IAcceptanceCriteria.cs" />
     <Compile Include="DomainServices\ChampionshipService\IChampionshipLogic.cs" />
+    <Compile Include="DomainServices\LeagueDomainService\ILeagueLogic.cs" />
+    <Compile Include="DomainServices\LeagueDomainService\LeagueLogic.cs" />
     <Compile Include="Exceptions\BusinessException.cs" />
     <Compile Include="Exceptions\ExceptionsHandlerAttribute.cs" />
     <Compile Include="Exceptions\ILogException.cs" />
@@ -212,12 +221,15 @@
     </Compile>
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Championship.cs" />
-    <Compile Include="Models\ChampionshipType.cs" />
     <Compile Include="Models\Dock.cs" />
     <Compile Include="Models\ExternalData\Club.cs" />
     <Compile Include="Models\ExternalData\League.cs" />
     <Compile Include="Models\ExternalData\PlayerStatistic.cs" />
     <Compile Include="Models\ExternalData\Professional.cs" />
+    <Compile Include="Models\League\FirsDivisionEngland.cs" />
+    <Compile Include="Models\League\FirstDivisionSpanish.cs" />
+    <Compile Include="Models\League\ILeague.cs" />
+    <Compile Include="Models\League\SecondDivisionSpanish.cs" />
     <Compile Include="Models\LineUp.cs" />
     <Compile Include="Models\Market.cs" />
     <Compile Include="Models\ChampionshipTypes\ClassicChampionship.cs" />

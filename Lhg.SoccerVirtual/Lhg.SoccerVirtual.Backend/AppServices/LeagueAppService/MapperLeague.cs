@@ -26,7 +26,7 @@ namespace Lhg.SoccerVirtual.Backend.AppServices.ChampionshipAppService
             {
                 LeagueDto dto = new LeagueDto
                 {
-                    ImageUrl = itemEntity.ImageUrl,
+                    Id = itemEntity.Id,
                     Name = itemEntity.Name
                 };
                 dtoList.Add(dto);

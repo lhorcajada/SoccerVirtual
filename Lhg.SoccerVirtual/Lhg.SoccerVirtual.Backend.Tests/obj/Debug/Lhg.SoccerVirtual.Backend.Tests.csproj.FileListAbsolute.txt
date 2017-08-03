@@ -15,7 +15,6 @@ C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\De
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\Lhg.SoccerVirtual.Backend.Tests.pdb
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\Lhg.SoccerVirtual.Backend.dll
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\System.Web.Http.dll
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\System.Web.Mvc.dll
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\System.Web.Http.WebHost.dll
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\System.Net.Http.Formatting.dll
@@ -43,3 +42,7 @@ C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\De
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\Autofac.Integration.WebApi.dll
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\Autofac.xml
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\EntityFramework.dll
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\EntityFramework.xml
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\Rhino.Mocks.dll
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\Rhino.Mocks.xml

@@ -13,7 +13,6 @@ namespace Lhg.SoccerVirtual.Backend.Data.Model
         {
         }
 
-        public virtual DbSet<League> Leagues { get; set; }
         public virtual DbSet<Championship> Championships { get; set; }
     }
 
