@@ -17,6 +17,7 @@ namespace Lhg.SoccerVirtual.Backend.Controllers.Tests
     public class LeagueControllerTests
     {
         [TestMethod()]
+        [TestCategory("League")]
         public void Integrated_GetLeagueAll_ReturnNotNull_Test()
         {
             ILeagueLogic leagueLogic = new LeagueLogic();
@@ -27,6 +28,7 @@ namespace Lhg.SoccerVirtual.Backend.Controllers.Tests
             Assert.IsNotNull(leagueList);
 
         }
+        [TestCategory("League")]
         [TestMethod()]
         public void Integrated_GetLeagueAll_ReturnMajorOfZeroLeagues_Test()
         {
@@ -38,6 +40,7 @@ namespace Lhg.SoccerVirtual.Backend.Controllers.Tests
             Assert.IsTrue(leagueList.Count() > 0);
 
         }
+        [TestCategory("League")]
         [TestMethod()]
         public void Unit_GetLeagueAll_CanBeSerializeToJson_Test()
         {

@@ -27,8 +27,8 @@ namespace Lhg.SoccerVirtual.Backend.Models
         /// Campeonato privado o público
         /// </summary>
         public bool IsPrivate { get; set; }
-        public int ChampionshipTypeId { get; set; }
-        public int PointSystemId { get; set; }
-        public int LeagueId { get; set; }
+        public string ChampionshipTypeName { get; set; }
+        public string PointSystemName { get; set; }
+        public string LeagueName { get; set; }
     }
 }

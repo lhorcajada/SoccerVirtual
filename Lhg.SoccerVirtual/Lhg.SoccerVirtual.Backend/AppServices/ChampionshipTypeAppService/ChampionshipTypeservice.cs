@@ -1,4 +1,5 @@
 ﻿using Lhg.SoccerVirtual.Backend.DomainServices.ChampionshipTypeDomainService;
+using Lhg.SoccerVirtual.Backend.Exceptions;
 using Lhg.SoccerVirtual.Backend.Models.ChampionshipTypes;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace Lhg.SoccerVirtual.Backend.AppServices.ChampionshipTypeAppService
         public ChampionshipTypeService(IChampionshipTypeLogic championshipTypeLogic)
         {
             if (championshipTypeLogic == null)
+                throw new NotHandlerException(Resources.ErrorMessages.IOCNoCreatedObject);
                 _championshipTypeLogic = championshipTypeLogic;
         }
         public List<IChampionshipType> GetChampionshipTypeAll()
