@@ -12,12 +12,16 @@ using Lhg.SoccerVirtual.Backend.DomainServices.ChampionshipTypeDomainService;
 using Lhg.SoccerVirtual.Backend.AppServices.ChampionshipTypeAppService;
 using System.Linq;
 using Lhg.SoccerVirtual.Backend.Models.ChampionshipTypes;
+using System.Diagnostics.CodeAnalysis;
+using Lhg.SoccerVirtual.Backend.Exceptions;
 
 namespace Lhg.SoccerVirtual.Backend.Tests.Controllers
 {
     /// <summary>
     /// Summary description for ChampionshipTypeTests
     /// </summary>
+    ///
+    [ExcludeFromCodeCoverage]
     [TestClass]
     public class ChampionshipTypeTests
     {
@@ -47,7 +51,7 @@ namespace Lhg.SoccerVirtual.Backend.Tests.Controllers
         }
         [TestCategory("ChampionshipType")]
         [TestMethod()]
-        public void Unit_GetChampionshipTypeAll_CanBeSerializeToJson_Test()
+        public void UnitTest_GetChampionshipTypeAll_CanBeSerializeToJson_Test()
         {
             IChampionshipTypeLogic championshipTypeLogic = MockRepository.GenerateStub<IChampionshipTypeLogic>();
             IChampionshipTypeService championshipTypeService = MockRepository.GenerateStub<IChampionshipTypeService>();
@@ -79,6 +83,27 @@ namespace Lhg.SoccerVirtual.Backend.Tests.Controllers
             var jsonList = jsonSerialiser.Serialize(championshipTypeList);
 
             Assert.AreEqual(expectedChampionshipTypeList, jsonList);
+
+        }
+        [TestMethod()]
+        [TestCategory("ChampionshipType")]
+        [ExpectedException(typeof(NotHandlerException), "El contenedor de dependencias no ha creado el objeto.")]
+
+        public void UnitTest_GetChampionshipTypeAll_ReturnException_Test()
+        {
+   
+            ChampionshipTypeController championshipTypeController = new ChampionshipTypeController(null);
+            var championshipTypeList = championshipTypeController.GetChampionshipTypes();
+
+        }
+        [TestMethod()]
+        [TestCategory("ChampionshipType")]
+        [ExpectedException(typeof(NotHandlerException), "El contenedor de dependencias no ha creado el objeto.")]
+
+        public void UnitTest_ChampionshipTypeService_ReturnException_Test()
+        {
+
+            ChampionshipTypeService championshipTypeService = new ChampionshipTypeService(null);
 
         }
     }

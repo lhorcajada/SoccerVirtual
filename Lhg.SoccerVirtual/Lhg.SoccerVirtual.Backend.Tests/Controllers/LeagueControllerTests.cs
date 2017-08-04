@@ -10,9 +10,11 @@ using Lhg.SoccerVirtual.Backend.DomainServices.LeagueDomainService;
 using System.Web.Script.Serialization;
 using Rhino.Mocks;
 using Lhg.SoccerVirtual.Backend.Models.League;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Lhg.SoccerVirtual.Backend.Controllers.Tests
 {
+    [ExcludeFromCodeCoverage]
     [TestClass()]
     public class LeagueControllerTests
     {

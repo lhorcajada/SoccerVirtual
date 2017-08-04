@@ -277,7 +277,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\ErrorMessages.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ErrorMessages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>

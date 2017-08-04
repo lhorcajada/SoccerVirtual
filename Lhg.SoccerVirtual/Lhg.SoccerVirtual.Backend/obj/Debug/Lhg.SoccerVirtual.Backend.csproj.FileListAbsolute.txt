@@ -49,7 +49,6 @@ C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\Newtonso
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\System.Net.Http.Formatting.xml
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\System.Web.Http.xml
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\System.Web.Http.WebHost.xml
-C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\obj\Debug\Lhg.SoccerVirtual.Backend.csprojResolveAssemblyReference.cache
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\obj\Debug\Lhg.SoccerVirtual.Backend.dll
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\obj\Debug\Lhg.SoccerVirtual.Backend.pdb
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\obj\Debug\Lhg.SoccerVirtual.Backend.Resources.ErrorMessages.resources
@@ -71,3 +70,4 @@ C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\EntityFr
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\EntityFramework.SqlServer.dll
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\EntityFramework.xml
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\EntityFramework.SqlServer.xml
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\obj\Debug\Lhg.SoccerVirtual.Backend.csprojResolveAssemblyReference.cache

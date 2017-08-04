@@ -22,7 +22,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class ErrorMessages {
+    public class ErrorMessages {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Lhg.SoccerVirtual.Backend.Resources.ErrorMessages", typeof(ErrorMessages).Assembly);
@@ -51,7 +51,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Debe introducir un alias más corto.
         /// </summary>
-        internal static string AliasMaxLenghtError {
+        public static string AliasMaxLenghtError {
             get {
                 return ResourceManager.GetString("AliasMaxLenghtError", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Debe introducir un alias más largo.
         /// </summary>
-        internal static string AliasMinLenghtError {
+        public static string AliasMinLenghtError {
             get {
                 return ResourceManager.GetString("AliasMinLenghtError", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Clásico.
         /// </summary>
-        internal static string ChampionshipTypeClassicName {
+        public static string ChampionshipTypeClassicName {
             get {
                 return ResourceManager.GetString("ChampionshipTypeClassicName", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Comunio.
         /// </summary>
-        internal static string ChampionshipTypeComunioName {
+        public static string ChampionshipTypeComunioName {
             get {
                 return ResourceManager.GetString("ChampionshipTypeComunioName", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Social.
         /// </summary>
-        internal static string ChampionshipTypeSocialName {
+        public static string ChampionshipTypeSocialName {
             get {
                 return ResourceManager.GetString("ChampionshipTypeSocialName", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to El contenedor de dependencias no ha creado el objeto..
         /// </summary>
-        internal static string IOCNoCreatedObject {
+        public static string IOCNoCreatedObject {
             get {
                 return ResourceManager.GetString("IOCNoCreatedObject", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Debe introducir un apellido más corto.
         /// </summary>
-        internal static string LastNameMaxLenghtError {
+        public static string LastNameMaxLenghtError {
             get {
                 return ResourceManager.GetString("LastNameMaxLenghtError", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Debe introducir un apellido más largo.
         /// </summary>
-        internal static string LastNameMinLenghtError {
+        public static string LastNameMinLenghtError {
             get {
                 return ResourceManager.GetString("LastNameMinLenghtError", resourceCulture);
             }
@@ -135,7 +135,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Liga Santander.
         /// </summary>
-        internal static string LeagueSpanishName {
+        public static string LeagueSpanishName {
             get {
                 return ResourceManager.GetString("LeagueSpanishName", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Debe introducir un nombremás corto.
         /// </summary>
-        internal static string NameMaxLenghtError {
+        public static string NameMaxLenghtError {
             get {
                 return ResourceManager.GetString("NameMaxLenghtError", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Debe introducir un nombre más largo.
         /// </summary>
-        internal static string NameMinLenghtError {
+        public static string NameMinLenghtError {
             get {
                 return ResourceManager.GetString("NameMinLenghtError", resourceCulture);
             }
@@ -162,7 +162,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Debe introducir una contraseña más corta.
         /// </summary>
-        internal static string PasswordMaxLenghtError {
+        public static string PasswordMaxLenghtError {
             get {
                 return ResourceManager.GetString("PasswordMaxLenghtError", resourceCulture);
             }
@@ -171,7 +171,7 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Debe introducir una contraseña más larga.
         /// </summary>
-        internal static string PasswordMinLenghtError {
+        public static string PasswordMinLenghtError {
             get {
                 return ResourceManager.GetString("PasswordMinLenghtError", resourceCulture);
             }

@@ -7,9 +7,11 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.Http;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Lhg.SoccerVirtual.Backend
 {
+    [ExcludeFromCodeCoverage]
     public class Global : HttpApplication
     {
         void Application_Start(object sender, EventArgs e)
