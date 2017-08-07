@@ -177,6 +177,7 @@
     <Compile Include="AppServices\ChampionshipAppService\IChampionshipService.cs" />
     <Compile Include="AppServices\ChampionshipTypeAppService\ChampionshipTypeService.cs" />
     <Compile Include="AppServices\ChampionshipTypeAppService\IChampionshipTypeService.cs" />
+    <Compile Include="AppServices\Shared\CommitAsync.cs" />
     <Compile Include="AppServices\LeagueAppService\MapperLeague.cs" />
     <Compile Include="AppServices\ChampionshipAppService\MapperChampionship.cs" />
     <Compile Include="AppServices\Dtos\ChampionshipDto.cs" />
@@ -198,8 +199,6 @@
     <Compile Include="Data\Repositories\ChampionshipRepository.cs" />
     <Compile Include="Data\UnitOfWork.cs" />
     <Compile Include="DomainServices\AcceptanceCriteriaBase.cs" />
-    <Compile Include="DomainServices\ChampionshipService\IChampionshipAcceptanceCriteria.cs" />
-    <Compile Include="DomainServices\ChampionshipService\ChampionshipAcceptanceCriteria.cs" />
     <Compile Include="DomainServices\ChampionshipService\ChampionshipLogic.cs" />
     <Compile Include="DomainServices\ChampionshipTypeDomainService\ChampionshipTypeLogic.cs" />
     <Compile Include="DomainServices\ChampionshipTypeDomainService\IChampionshipTypeLogic.cs" />
@@ -211,6 +210,8 @@
     <Compile Include="DomainServices\ChampionshipService\IChampionshipLogic.cs" />
     <Compile Include="DomainServices\LeagueDomainService\ILeagueLogic.cs" />
     <Compile Include="DomainServices\LeagueDomainService\LeagueLogic.cs" />
+    <Compile Include="DomainServices\UserDomainService\IUserLogic.cs" />
+    <Compile Include="DomainServices\UserDomainService\UserLogic.cs" />
     <Compile Include="Exceptions\BusinessException.cs" />
     <Compile Include="Exceptions\ExceptionsHandlerAttribute.cs" />
     <Compile Include="Exceptions\ILogException.cs" />

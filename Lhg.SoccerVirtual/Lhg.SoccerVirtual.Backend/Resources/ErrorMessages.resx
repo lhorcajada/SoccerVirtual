@@ -123,6 +123,9 @@
   <data name="AliasMinLenghtError" xml:space="preserve">
     <value>Debe introducir un alias más largo</value>
   </data>
+  <data name="BudgetRangeError" xml:space="preserve">
+    <value>El presupuesto debe estar comprendido entre 0 y 500.000.000€</value>
+  </data>
   <data name="ChampionshipTypeClassicName" xml:space="preserve">
     <value>Clásico</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="ChampionshipTypeSocialName" xml:space="preserve">
     <value>Social</value>
+  </data>
+  <data name="InitialPlayersRangeError" xml:space="preserve">
+    <value>El número de jugadores inicial debe estar comprendido entre 0 y 20</value>
   </data>
   <data name="IOCNoCreatedObject" xml:space="preserve">
     <value>El contenedor de dependencias no ha creado el objeto.</value>
@@ -155,5 +161,11 @@
   </data>
   <data name="PasswordMinLenghtError" xml:space="preserve">
     <value>Debe introducir una contraseña más larga</value>
+  </data>
+  <data name="LeagueIsRequired" xml:space="preserve">
+    <value>Es necesario que elija una liga.</value>
+  </data>
+  <data name="ZeroNumberObjectsWrittenToUnderlyingDatabase" xml:space="preserve">
+    <value>El número de objetos escritos en base de datos ha sido cero.</value>
   </data>
 </root>

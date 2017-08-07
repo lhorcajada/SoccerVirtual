@@ -16,7 +16,19 @@ namespace Lhg.SoccerVirtual.Backend.AppServices.ChampionshipAppService
 
         public override Championship MappingFromDtoToEntity(ChampionshipDto dto)
         {
-            throw new NotImplementedException();
+            return new Championship
+            {
+                AppUserId = dto.AppUserId,
+                Budget = dto.Budget,
+                ChampionshipTypeName = dto.ChampionshipType?.Name,
+                DiscountBudgetTeamValue = dto.DiscountBudgetTeamValue,
+                InitialPlayers = dto.InitialPlayers,
+                IsPrivate = dto.IsPrivate,
+                LeagueName = dto.League?.Name,
+                Name = dto.Name,
+                PointSystemName = dto.PointSystem?.Name
+                
+            };
         }
 
         public override List<ChampionshipDto> MappingFromEntityListToDtoList(List<Championship> entityList)

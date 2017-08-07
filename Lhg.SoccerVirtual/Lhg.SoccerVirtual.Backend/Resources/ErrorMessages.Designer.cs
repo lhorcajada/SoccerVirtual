@@ -79,6 +79,15 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to El presupuesto debe estar comprendido entre 0 y 500.000.000€.
+        /// </summary>
+        public static string BudgetRangeError {
+            get {
+                return ResourceManager.GetString("BudgetRangeError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clásico.
         /// </summary>
         public static string ChampionshipTypeClassicName {
@@ -106,6 +115,15 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to El número de jugadores inicial debe estar comprendido entre 0 y 20.
+        /// </summary>
+        public static string InitialPlayersRangeError {
+            get {
+                return ResourceManager.GetString("InitialPlayersRangeError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to El contenedor de dependencias no ha creado el objeto..
         /// </summary>
         public static string IOCNoCreatedObject {
@@ -129,6 +147,15 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         public static string LastNameMinLenghtError {
             get {
                 return ResourceManager.GetString("LastNameMinLenghtError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Es necesario que elija una liga..
+        /// </summary>
+        public static string LeagueIsRequired {
+            get {
+                return ResourceManager.GetString("LeagueIsRequired", resourceCulture);
             }
         }
         
@@ -174,6 +201,15 @@ namespace Lhg.SoccerVirtual.Backend.Resources {
         public static string PasswordMinLenghtError {
             get {
                 return ResourceManager.GetString("PasswordMinLenghtError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to El número de objetos escritos en base de datos ha sido cero..
+        /// </summary>
+        public static string ZeroNumberObjectsWrittenToUnderlyingDatabase {
+            get {
+                return ResourceManager.GetString("ZeroNumberObjectsWrittenToUnderlyingDatabase", resourceCulture);
             }
         }
     }

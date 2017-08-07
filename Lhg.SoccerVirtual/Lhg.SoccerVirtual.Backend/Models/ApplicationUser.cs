@@ -25,6 +25,8 @@ namespace Lhg.SoccerVirtual.Backend.Models
         [DataAnnotation.MaxLength(15, ErrorMessageResourceName = "PasswordMaxLenghtError", ErrorMessageResourceType = typeof(Resources.ErrorMessages))]
         public string Password { get; set; }
 
+
+
         public void Update(ApplicationUser appUserToUpdate)
         {
             Name = appUserToUpdate.Name;

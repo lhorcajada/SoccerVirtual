@@ -45,3 +45,5 @@ C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\De
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\EntityFramework.xml
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\Rhino.Mocks.dll
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\Rhino.Mocks.xml
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend.Tests\bin\Debug\EntityFramework.SqlServer.xml

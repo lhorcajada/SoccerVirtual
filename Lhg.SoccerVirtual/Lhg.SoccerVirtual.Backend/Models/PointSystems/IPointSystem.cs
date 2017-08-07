@@ -7,5 +7,8 @@ namespace Lhg.SoccerVirtual.Backend.Models.PointSystems
 {
     public interface IPointSystem
     {
+        int Id { get; set; }
+        string Name { get; set; }
+
     }
 }

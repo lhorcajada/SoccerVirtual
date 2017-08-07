@@ -11,12 +11,13 @@ using System.Web.Script.Serialization;
 using Rhino.Mocks;
 using Lhg.SoccerVirtual.Backend.Models.League;
 using System.Diagnostics.CodeAnalysis;
+using Lhg.SoccerVirtual.Backend.Exceptions;
 
-namespace Lhg.SoccerVirtual.Backend.Controllers.Tests
+namespace Lhg.SoccerVirtual.Backend.Controllers.Test
 {
     [ExcludeFromCodeCoverage]
     [TestClass()]
-    public class LeagueControllerTests
+    public class LeagueTest
     {
         [TestMethod()]
         [TestCategory("League")]
@@ -42,6 +43,7 @@ namespace Lhg.SoccerVirtual.Backend.Controllers.Tests
             Assert.IsTrue(leagueList.Count() > 0);
 
         }
+
         [TestCategory("League")]
         [TestMethod()]
         public void Unit_GetLeagueAll_CanBeSerializeToJson_Test()
@@ -74,7 +76,16 @@ namespace Lhg.SoccerVirtual.Backend.Controllers.Tests
 
         }
 
-       
+        [TestCategory("League")]
+        [TestMethod()]
+        [ExpectedException(typeof(NotHandlerException), "El contenedor de dependencias no ha creado el objeto.")]
+        public void Unit_GetLeagueAll_ThrowException_Test()
+        {
+            LeagueController leagueController = new LeagueController(null);
+
+        }
+
+
 
     }
 }

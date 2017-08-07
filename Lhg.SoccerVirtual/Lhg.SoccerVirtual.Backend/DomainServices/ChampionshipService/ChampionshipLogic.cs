@@ -10,14 +10,13 @@ namespace Lhg.SoccerVirtual.Backend.DomainServices
 {
     public class ChampionshipLogic : IChampionshipLogic
     {
-        private IChampionshipAcceptanceCriteria _acceptanceCriteria;
-        public ChampionshipLogic(IChampionshipAcceptanceCriteria acceptanceCriteria)
+        public ChampionshipLogic()
         {
-            _acceptanceCriteria = acceptanceCriteria; 
         }
         public void CreateChampionship(ApplicationUser user, Championship championshipToCreate)
         {
-            _acceptanceCriteria.CriteriaToCreate(user, championshipToCreate);
+            
+
         }
 
         public void DeleteChampionship(ApplicationUser user, string password)

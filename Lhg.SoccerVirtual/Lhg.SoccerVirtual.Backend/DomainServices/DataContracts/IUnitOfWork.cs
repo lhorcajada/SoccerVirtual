@@ -9,5 +9,6 @@ namespace Lhg.SoccerVirtual.Backend.DomainServices.DataContracts
     public interface IUnitOfWork:IDisposable
     {
         void Commit();
+        Task<int> CommitAsync();
     }
 }

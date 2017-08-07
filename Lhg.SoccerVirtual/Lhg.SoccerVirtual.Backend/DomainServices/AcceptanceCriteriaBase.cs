@@ -8,9 +8,7 @@ namespace Lhg.SoccerVirtual.Backend.DomainServices
 {
     public abstract class AcceptanceCriteriaBase<T> : IAcceptanceCriteria<T>
     {
-        public void CriteriaToCreate(ApplicationUser user, T championshipToCreate)
-        {
-            throw new NotImplementedException();
-        }
+        public virtual void CriteriaToCreate(ApplicationUser user, T championshipToCreate) { }
+  
     }
 }

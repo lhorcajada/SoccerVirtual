@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lhg.SoccerVirtual.Backend.DomainServices.ChampionshipService
 {
-    interface IChampionshipLogic
+    public interface IChampionshipLogic
     {
         void CreateChampionship(ApplicationUser user, Championship championshipToCreate);
         void JoinChampionship(ApplicationUser user, string password);

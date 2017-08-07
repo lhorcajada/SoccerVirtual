@@ -15,7 +15,7 @@ using Lhg.SoccerVirtual.Backend.Models.ChampionshipTypes;
 using System.Diagnostics.CodeAnalysis;
 using Lhg.SoccerVirtual.Backend.Exceptions;
 
-namespace Lhg.SoccerVirtual.Backend.Tests.Controllers
+namespace Lhg.SoccerVirtual.Backend.Test
 {
     /// <summary>
     /// Summary description for ChampionshipTypeTests
