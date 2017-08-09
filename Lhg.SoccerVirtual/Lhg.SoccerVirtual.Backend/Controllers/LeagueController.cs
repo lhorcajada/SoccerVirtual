@@ -22,9 +22,10 @@ namespace Lhg.SoccerVirtual.Backend.Controllers
             _leagueService = leagueService;
 
         }
-        public List<ILeague> GetLeagueAll()
+        public IHttpActionResult GetLeagueAll()
         {
-            return _leagueService.GetLeagueAll();
+            var leagueAll = _leagueService.GetLeagueAll();
+            return Ok(leagueAll);
         }
     }
 }

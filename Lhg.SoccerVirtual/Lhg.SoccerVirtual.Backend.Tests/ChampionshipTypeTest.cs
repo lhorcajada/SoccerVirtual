@@ -14,6 +14,7 @@ using System.Linq;
 using Lhg.SoccerVirtual.Backend.Models.ChampionshipTypes;
 using System.Diagnostics.CodeAnalysis;
 using Lhg.SoccerVirtual.Backend.Exceptions;
+using System.Web.Http.Results;
 
 namespace Lhg.SoccerVirtual.Backend.Test
 {
@@ -44,9 +45,9 @@ namespace Lhg.SoccerVirtual.Backend.Test
             IChampionshipTypeLogic championshipTypeLogic = new ChampionshipTypeLogic();
             IChampionshipTypeService championshipTypeService = new ChampionshipTypeService(championshipTypeLogic);
             ChampionshipTypeController championshipTypeController = new ChampionshipTypeController(championshipTypeService);
-            var championshipTypeList = championshipTypeController.GetChampionshipTypes();
+            var result = championshipTypeController.GetChampionshipTypes() as OkNegotiatedContentResult<List<IChampionshipType>>;
 
-            Assert.IsTrue(championshipTypeList.Count() > 0);
+            Assert.IsTrue(result.Content.Count() > 0);
 
         }
         [TestCategory("ChampionshipType")]
@@ -76,11 +77,11 @@ namespace Lhg.SoccerVirtual.Backend.Test
             championshipTypeLogic.Stub(x => x.CreateChampionshipTypeList()).Return(mockChampionshipTypeList);
             championshipTypeService.Stub(x => x.GetChampionshipTypeAll()).Return(mockChampionshipTypeList);
             ChampionshipTypeController championshipTypeController = new ChampionshipTypeController(championshipTypeService);
-            var championshipTypeList = championshipTypeController.GetChampionshipTypes();
+            var championshipTypeList = championshipTypeController.GetChampionshipTypes() as OkNegotiatedContentResult<List<IChampionshipType>>;
 
             string expectedChampionshipTypeList = @"[{""Id"":1,""Name"":""Clásico""},{""Id"":2,""Name"":""Social""},{""Id"":3,""Name"":""Comunio""}]";
             var jsonSerialiser = new JavaScriptSerializer();
-            var jsonList = jsonSerialiser.Serialize(championshipTypeList);
+            var jsonList = jsonSerialiser.Serialize(championshipTypeList.Content);
 
             Assert.AreEqual(expectedChampionshipTypeList, jsonList);
 
@@ -93,7 +94,7 @@ namespace Lhg.SoccerVirtual.Backend.Test
         {
    
             ChampionshipTypeController championshipTypeController = new ChampionshipTypeController(null);
-            var championshipTypeList = championshipTypeController.GetChampionshipTypes();
+            var championshipTypeList = championshipTypeController.GetChampionshipTypes() as OkNegotiatedContentResult<List<IChampionshipType>>;
 
         }
         [TestMethod()]

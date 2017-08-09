@@ -71,3 +71,4 @@ C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\EntityFr
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\EntityFramework.xml
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\bin\EntityFramework.SqlServer.xml
 C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\obj\Debug\Lhg.SoccerVirtual.Backend.csprojResolveAssemblyReference.cache
+C:\GitHub\SoccerVirtual\Lhg.SoccerVirtual\Lhg.SoccerVirtual.Backend\obj\Debug\Lhg.SoccerVirtual.Backend.Resources.BusinessMessages.resources

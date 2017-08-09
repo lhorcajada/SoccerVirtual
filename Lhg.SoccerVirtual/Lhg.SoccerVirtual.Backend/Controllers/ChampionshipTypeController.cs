@@ -20,9 +20,10 @@ namespace Lhg.SoccerVirtual.Backend.Controllers
             _championshipTypeService = championshipTypeService;
         }
 
-        public List<IChampionshipType> GetChampionshipTypes()
+        public IHttpActionResult GetChampionshipTypes()
         {
-           return _championshipTypeService.GetChampionshipTypeAll();
+            var championshipTypeAll = _championshipTypeService.GetChampionshipTypeAll();
+            return Ok(championshipTypeAll);
         }
     }
 }

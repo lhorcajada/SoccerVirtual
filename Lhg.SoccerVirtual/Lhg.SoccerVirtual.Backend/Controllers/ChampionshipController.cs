@@ -22,9 +22,10 @@ namespace Lhg.SoccerVirtual.Backend.Controllers
             _championshipService = championshipService;
         }
 
-        public async Task CreateChampionship(ChampionshipDto championshipDto)
+        public async Task<IHttpActionResult> CreateChampionship([FromBody] ChampionshipDto championshipDto)
         {
             await _championshipService.CreateChampionship(championshipDto);
+            return Ok();
         } 
     }
 }

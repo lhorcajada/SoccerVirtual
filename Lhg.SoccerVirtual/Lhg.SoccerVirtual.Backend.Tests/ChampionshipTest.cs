@@ -14,6 +14,7 @@ using Lhg.SoccerVirtual.Backend.Exceptions;
 using System.Data.Entity.Validation;
 using System.Data.Entity.Infrastructure;
 using Lhg.SoccerVirtual.Backend.Controllers;
+using System.Net.Http;
 
 namespace Lhg.SoccerVirtual.Backend.Tests
 {
@@ -105,6 +106,7 @@ namespace Lhg.SoccerVirtual.Backend.Tests
             IChampionshipService service = new ChampionshipService(_userLogic, _championshipRepository, _uow);
             ChampionshipController controller = new ChampionshipController(service);
             await controller.CreateChampionship(championshipFromClient);
+            
 
         }
         [TestMethod]
